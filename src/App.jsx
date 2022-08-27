@@ -1,13 +1,10 @@
-import { useState } from 'react'
-import Navigation from "./components/Navigation"
-import './App.css'
+import React from "react"
+import Navbar from "./components/Navbar"
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <Navigation />
-    </div>
+    <>
+      <Navbar />
+    </>
   )
 }
-
-export default App
